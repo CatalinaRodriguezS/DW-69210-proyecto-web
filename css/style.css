@@ -1,0 +1,419 @@
+/* comentario en css */
+/* selector de etiqueta */
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Lato", sans-serif; */
+
+
+
+P{
+    color: rgb(55, 90, 127);
+    font-family:"Lato", sans-serif;
+}
+
+.encabezado {
+    background-color: #fcf7f1;
+  }
+
+/* header */
+
+header{
+    background-color: rgb(252, 247, 241);
+    font-family:"Lato", sans-serif;
+    position: sticky;
+    top: 0;
+  
+   
+}
+.menu-link {
+  font-family: 'Lato', sans-serif; /* o la fuente que usabas antes */
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d4861 !important; /* azul oscuro que tenías */
+  margin: 0 10px;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.custom-header {
+  background-color: #efe5d9 !important; /* el color crema que estás usando */
+}
+
+.navbar-nav .nav-link {
+  color: #2d4763 !important;      /* Color azul oscuro */
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #e28c4c !important;      /* Color al pasar el mouse */
+}
+
+.navbar {
+  padding: 10px 30px;
+  background-color: #fcf9f4;
+}
+
+.nav-link {
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+header li{
+    color: rgb(55, 90, 127);
+}
+
+header img{
+    width: 300px;
+}
+header ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.contenedor-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 180px;
+    height: auto;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #375a7f;
+  }
+  
+  .contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  /* Estilo del logo */
+  .logo {
+    max-width: 300px;
+    height: auto;
+  }
+  
+  /* Menú horizontal */
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Enlaces del menú */
+  .menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #375a7f;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .menu li a:hover {
+    color: #6ca0d6;
+  }
+
+
+
+
+/* footer */
+
+footer{
+    background-color: rgb(252, 247, 241);
+    font-family:"Lato", sans-serif;
+}
+
+footer h4{
+    color: rgb(55, 90, 127)
+}
+footer h3{
+    color: rgb(55, 90, 127)
+}
+
+footer img{
+    width: 300px;
+}
+
+footer img[alt*="facebook"],
+footer img[alt*="instagram"]{
+  width: 30px; 
+  height: auto;
+  margin: 0 10px;
+
+}
+footer img[alt*="asistente"] {
+    width: 100px; 
+    height: auto;
+    margin: 0 10px;
+  }
+
+  .footer {
+    background-color: #fcf7f1;
+    padding: 40px 20px;
+  }
+  
+  .footer-contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: flex-start;
+  }
+  
+  .footer-logo img,
+  .footer-asistente img {
+    width: 100px;
+  }
+  
+  .footer-redes,
+  .footer-contacto {
+    min-width: 180px;
+  }
+  
+  .footer-redes h4,
+  .footer-contacto h4 {
+    font-size: 16px;
+    color: #375a7f;
+    margin-bottom: 10px;
+  }
+  
+  .footer-contacto p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #375a7f;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .redes-sociales img {
+    width: 24px;
+    height: 24px;
+  }
+/* selector class  cuando quiero que alguna etiqueta en particular tenga otro color, la selecciono en el html especificamente*/
+
+/* especificidad */
+
+
+
+body{
+    color: rgb(55, 90, 127);
+    background-color: #e6d9c7;
+    font-family:"Lato", sans-serif;
+   
+}
+
+/* main */
+
+main{
+    background-color: #e6d9c7;
+}
+
+main h1{
+    color: rgb(55, 90, 127);
+    font-family:"Lato", sans-serif;
+    text-align: center;
+    
+}
+
+main {
+  margin-top: 40px;
+}
+
+.titulo-inicio{
+  margin-top: 40px;
+}
+
+.intro-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .intro-flex img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .intro-flex p {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #375a7f;
+  }
+  
+ ol{
+    color: rgb(55, 90, 127);
+    font-family:"Lato", sans-serif;
+    text-decoration: underline;
+
+ }
+ li{
+    color: rgb(55, 90, 127);
+    font-family:"Lato", sans-serif;
+
+ }
+main h2{
+    color: rgb(55, 90, 127);
+    font-family:"Lato", sans-serif;
+    text-align: center;
+
+}
+
+main img{
+    width: 500px;
+    
+}
+main {
+  padding: 1rem;
+}
+
+.titulo-presentacion{
+    text-align: center;
+    font-size: xx-large;
+}
+.color-fondo{
+    background-color: #e6d9c7;
+}
+
+.grid-secciones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+  }
+  
+  .box-seccion {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .box-seccion:hover {
+    transform: translateY(-5px);
+  }
+  
+  .box-seccion img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  .box-seccion h2 {
+    font-size: 20px;
+    color: #375a7f;
+    margin-bottom: 10px;
+  }
+  
+  .box-seccion p {
+    font-size: 14px;
+    color: #333;
+  }
+  .video-seccion {
+    text-align: center;
+    margin: 60px auto;
+  }
+  
+  .video-seccion iframe {
+    max-width: 560px;
+    width: 100%;
+    height: 315px;
+    display: block;
+    margin: 2 rem auto;
+    border-radius: 8px;
+  }
+
+  .video-seccion {
+    margin-bottom: 60px;
+  }
+  
+  .card-body {
+    background-color: white;
+    padding: 1.25rem;
+  }
+  .card-text {
+    color: #29415b; /* o el tono de azul que estás usando */
+  }
+  .video-seccion .card-body {
+    margin-top: 1rem;
+  }
+  
+    
+
+  /* mediaQuery */
+  
+  @media (max-width:576px){
+    .contenedor-header{
+      flex-direction: column;
+      align-items: center;
+   
+    }
+
+    }
+    @media (max-width: 576px) {
+      .video-seccion .card-text {
+        font-size: 0.95rem;
+        padding: 0 1rem;
+      }
+    
+      .video-seccion .btn {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+      }
+    
+      .video-seccion .card-body {
+        padding: 1rem;
+      }
+    }
+  
