@@ -27,10 +27,10 @@ header{
    
 }
 .menu-link {
-  font-family: 'Lato', sans-serif; /* o la fuente que usabas antes */
+  font-family: 'Lato', sans-serif; 
   font-size: 1.1rem;
   font-weight: 700;
-  color: #2d4861 !important; /* azul oscuro que tenías */
+  color: #2d4861 !important; 
   margin: 0 10px;
 }
 
@@ -39,7 +39,7 @@ header{
 }
 
 .custom-header {
-  background-color: #efe5d9 !important; /* el color crema que estás usando */
+  background-color: #efe5d9 !important; 
 }
 
 .navbar-nav .nav-link {
