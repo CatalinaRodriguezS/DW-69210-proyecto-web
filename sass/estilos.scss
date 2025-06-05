@@ -132,6 +132,9 @@ main{
         color: rgb(55, 90, 127);
         font-family:"Lato", sans-serif;
         text-align: center;
+    .titulo-inicio{
+        margin-top: 40px;
+    }
     }
     .intro-flex {
         display: flex;
@@ -168,11 +171,17 @@ main{
         color: rgb(55, 90, 127);
         font-family:"Lato", sans-serif;
         text-align: center;
+    main img {
+        width: 500px;
+    }
 
     }
     .titulo-presentacion{
         text-align: center;
         font-size: xx-large;
+    }
+    .color-fondo {
+        background-color: #e6d9c7;
     }
     .grid-secciones {
         display: grid;
@@ -192,6 +201,13 @@ main{
         transition: transform 0.2s ease;
     .box-seccion:hover{
         transform: translateY(-5px);
+    }
+    .box-seccion img{
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 8px;
     }
     .box-seccion h2 {
         font-size: 20px;
@@ -229,6 +245,8 @@ main{
   
     }
 }
+
+/* mediaQuery */
 
 @media (max-width: 576px){
     .video-seccion .card-text{

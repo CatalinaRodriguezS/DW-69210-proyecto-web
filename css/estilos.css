@@ -138,6 +138,9 @@ main main h1 {
   font-family: "Lato", sans-serif;
   text-align: center;
 }
+main main h1 .titulo-inicio {
+  margin-top: 40px;
+}
 main .intro-flex {
   display: flex;
   justify-content: center;
@@ -174,9 +177,15 @@ main main h2 {
   font-family: "Lato", sans-serif;
   text-align: center;
 }
+main main h2 main img {
+  width: 500px;
+}
 main .titulo-presentacion {
   text-align: center;
   font-size: xx-large;
+}
+main .color-fondo {
+  background-color: #e6d9c7;
 }
 main .grid-secciones {
   display: grid;
@@ -197,6 +206,13 @@ main .box-seccion {
 }
 main .box-seccion .box-seccion:hover {
   transform: translateY(-5px);
+}
+main .box-seccion .box-seccion img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
 }
 main .box-seccion .box-seccion h2 {
   font-size: 20px;
@@ -231,6 +247,7 @@ main .box-seccion .video-seccion .video-seccion .card-body {
   margin-top: 1rem;
 }
 
+/* mediaQuery */
 @media (max-width: 576px) {
   .video-seccion .card-text {
     font-size: 0.95rem;
